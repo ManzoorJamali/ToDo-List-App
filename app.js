@@ -31,7 +31,7 @@ function add() {
  }
   else{
     let newel = document.createElement('ul')
-    newel.innerHTML = `${inputs.value}<li class="list-group-item" ></li><i class = "fa-solid fa-trash d-flex justify-content-end"></i>`;
+    newel.innerHTML = `${inputs.value}<a href = "#"<li class="list-group-item" ></li><i class = "fa-solid fa-trash d-flex justify-content-end"></i></a>`;
     text.appendChild(newel);
     inputs.value = ""
 
